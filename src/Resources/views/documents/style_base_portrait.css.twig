@@ -1,0 +1,29 @@
+{% sw_extends '@Framework/documents/style_base_portrait.css.twig' %}
+    {% block document_style %}
+        {{ parent() }}
+
+        .sender-address-container {
+            top: 150px;
+            right: 30px;
+            position: absolute;
+        }
+
+        .document-title-container {
+            margin: 125px 0 20px 0;
+            position: relative;
+            font-size: 28px;
+        }
+
+        .letter-body {
+             margin-top: 300px;
+         }
+
+        .recipient-address-container {
+            margin-top: 150px;
+        }
+
+        .page-count {
+            width: 100%;
+            text-align: center;
+        }
+    {% endblock %}

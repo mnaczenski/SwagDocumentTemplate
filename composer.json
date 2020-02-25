@@ -1,0 +1,18 @@
+{
+  "name": "swag/theme-skeleton",
+  "description": "SwagDocumentTemplate",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "SwagDocumentTemplate\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "SwagDocumentTemplate\\SwagDocumentTemplate",
+    "label": {
+      "de-DE": "SwagDocumentTemplate",
+      "en-GB": "SwagDocumentTemplate"
+    }
+  }
+}

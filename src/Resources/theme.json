@@ -1,0 +1,21 @@
+{
+  "name": "SwagDocumentTemplate",
+  "author": "Shopware AG",
+  "views": [
+     "@Storefront",
+     "@Plugins",
+     "@tests"
+  ],
+  "style": [
+    "app/storefront/src/scss/overrides.scss",
+    "@Storefront",
+    "app/storefront/src/scss/base.scss"
+  ],
+  "script": [
+    "@Storefront",
+    "app/storefront/dist/storefront/js/tests.js"
+  ],
+  "asset": [
+    "app/storefront/src/assets"
+  ]
+}
